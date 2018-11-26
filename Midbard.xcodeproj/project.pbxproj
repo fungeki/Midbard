@@ -13,6 +13,8 @@
 		8C96791F21AC666400ECBA15 /* Midbard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C96791D21AC666400ECBA15 /* Midbard.xcdatamodeld */; };
 		8C96792121AC666800ECBA15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C96792021AC666800ECBA15 /* Assets.xcassets */; };
 		8C96792421AC666800ECBA15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C96792221AC666800ECBA15 /* LaunchScreen.storyboard */; };
+		8C96792F21AC66E900ECBA15 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C96792E21AC66E900ECBA15 /* Event.swift */; };
+		8C96793121AC67A100ECBA15 /* EventsDatabse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C96793021AC67A100ECBA15 /* EventsDatabse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8C96792021AC666800ECBA15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C96792321AC666800ECBA15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C96792521AC666800ECBA15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C96792E21AC66E900ECBA15 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		8C96793021AC67A100ECBA15 /* EventsDatabse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsDatabse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		8C96791521AC666400ECBA15 /* Midbard */ = {
 			isa = PBXGroup;
 			children = (
+				8C96792D21AC66C400ECBA15 /* Objects */,
+				8C96792B21AC66A500ECBA15 /* DB */,
 				8C96791621AC666400ECBA15 /* AppDelegate.swift */,
 				8C96791821AC666400ECBA15 /* ViewController.swift */,
 				8C96791A21AC666400ECBA15 /* Main.storyboard */,
@@ -65,6 +71,30 @@
 				8C96791D21AC666400ECBA15 /* Midbard.xcdatamodeld */,
 			);
 			path = Midbard;
+			sourceTree = "<group>";
+		};
+		8C96792B21AC66A500ECBA15 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				8C96792C21AC66B800ECBA15 /* Get */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		8C96792C21AC66B800ECBA15 /* Get */ = {
+			isa = PBXGroup;
+			children = (
+				8C96793021AC67A100ECBA15 /* EventsDatabse.swift */,
+			);
+			path = Get;
+			sourceTree = "<group>";
+		};
+		8C96792D21AC66C400ECBA15 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				8C96792E21AC66E900ECBA15 /* Event.swift */,
+			);
+			path = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +168,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C96792F21AC66E900ECBA15 /* Event.swift in Sources */,
 				8C96791F21AC666400ECBA15 /* Midbard.xcdatamodeld in Sources */,
+				8C96793121AC67A100ECBA15 /* EventsDatabse.swift in Sources */,
 				8C96791921AC666400ECBA15 /* ViewController.swift in Sources */,
 				8C96791721AC666400ECBA15 /* AppDelegate.swift in Sources */,
 			);
