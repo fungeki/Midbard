@@ -10,7 +10,7 @@ import Foundation
 
 
 func getEvents (completion: ((_ events: [Event])->Void)? = nil){
-    let urlStr = "http://doodahackathon.herokuapp.com/eventsdb" //url to eventsDB
+    let urlStr = "https://doodahackathon.herokuapp.com/eventsdb" //url to eventsDB
     guard let urlObj = URL(string: urlStr) else { //creates a URL object which is NOT optional
         print("error formatting URL")
         return
